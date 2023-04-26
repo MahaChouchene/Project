@@ -41,7 +41,7 @@ pipeline {
             steps{
                 sh 'mvn sonar:sonar \
   -Dsonar.projectKey=JenkinsExamProject \
-  -Dsonar.host.url=http://192.168.1.15:9000 \
+  -Dsonar.host.url=http://192.168.1.125:9000 \
   -Dsonar.login=5879dc4c86cbd6621f7e88492372874d6ee38f4d'
                  }
         }    
