@@ -9,6 +9,7 @@ pipeline {
         stage('Git') {
             steps {
                 echo "Getting Project from Git";
+                sh "rm -rf Project"
                 sh "git clone https://github.com/MahaChouchene/Project.git"
                   }
             }
